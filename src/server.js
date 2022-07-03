@@ -1,4 +1,6 @@
 //강의 2.2부터 진행
+
+import "./db";
 import express from "express";
 import morgan from "morgan";
 import globalRouter from "./routers/globalrouter";
@@ -24,6 +26,6 @@ app.use("/videos", videoRouter);
 //아래부터 외부에 개방
 
 const handleListening = () =>
-  console.log(`✅Server Listening on port http://localhost:${PORT} 🚀`);
+  console.log(`✅ Server Listening on port http://localhost:${PORT} 🚀`);
 
 app.listen(PORT, handleListening);
