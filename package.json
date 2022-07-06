@@ -7,7 +7,7 @@
     "url": "git+https://github.com/Godkyungho/wetube-reload.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "GK <tlsudgh1123@gmail.com>",
   "license": "MIT",
